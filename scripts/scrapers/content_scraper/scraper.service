@@ -36,7 +36,7 @@ WorkingDirectory=/home/YOUR_USERNAME/Hong-Kong-Fire-Documentary
 EnvironmentFile=/home/YOUR_USERNAME/.scraper_env
 
 # Run the daemon
-ExecStart=/home/YOUR_USERNAME/Hong-Kong-Fire-Documentary/venv/bin/python /home/YOUR_USERNAME/Hong-Kong-Fire-Documentary/scripts/scraper/daemon.py
+ExecStart=/home/YOUR_USERNAME/Hong-Kong-Fire-Documentary/venv/bin/python /home/YOUR_USERNAME/Hong-Kong-Fire-Documentary/scripts/scrapers/content_scraper/daemon.py
 
 # Restart on failure
 Restart=on-failure
