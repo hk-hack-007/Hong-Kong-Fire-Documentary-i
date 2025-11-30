@@ -94,7 +94,7 @@
 
   - 網上下載 (Web download)：從網站下載或自動爬取
   - 網際網路檔案館 (Wayback Machine)：從 Internet Archive/Wayback Machine 取得
-  - 政府/法定機構公佈 (Official/Public Record)：從政府憲報、部門網站或法定機構下載
+  - 政府/法定機構公佈 (Official/Public Record)：從政府憲報、部門網站或法定機構網站下載
   - 電郵附件 (Email attachment)：以電郵附件形式接收
   - 通訊平台 (Messaging platform)：從通訊平台取得（Telegram, WhatsApp 等）
   - 實體掃描 (Scan of Original/CTC)：從實體正本或核證副本 (Certified True Copy) 掃描
@@ -233,16 +233,16 @@ This repository aims to collect, organize, and preserve publicly available infor
 
 ## 2. Incident Overview
 
-On 26 November 2025, a major fire broke out at Wang Fuk Court in Tai Po. The fire spread rapidly from lower floors to upper floors within a very short time, resulting in significant casualties. The incident raised widespread concerns regarding scaffolding materials, flame-retardant standards, maintenance procedures, and regulatory oversight. Large-scale evacuation followed, with volunteers, local businesses, and NGOs providing immediate support including supplies, temporary rest areas, pet care assistance, sanitation items, and other forms of aid.
+On 26 November 2025, a major fire broke out at Wang Fuk Court in Tai Po. The fire spread very rapidly from lower floors to upper floors, resulting in significant casualties. This incident raised widespread concerns regarding scaffolding materials, flame retardancy standards, maintenance procedures, and regulatory oversight. Large-scale evacuation followed, with volunteers, local businesses, and NGOs providing immediate relief, such as supplies, rest areas, pet care assistance, sanitation items, and other forms of support.
 
 ## 3. Repository Structure
 
 All main content is located in the `content/` directory:
 
-- **`/timeline/` Timeline**: Chronological record of the incident, including the fire outbreak, rescue operations, and aftermath.
+- **`/timeline/` Timeline**: Chronological records of the incident, such as the fire outbreak, rescue operations, and the aftermath.
 - **`/videos/` Videos**: Collection of on-site footage from social media and news sources, with source links.
 - **`/news/` News**: Archive of reports from major media outlets, categorized by media and date.
-- **`/analysis/` Analysis**: Technical documents and analyses regarding scaffolding safety, material flame retardancy standards, and fire causes.
+- **`/analysis/` Analysis**: Technical documents and analyses regarding scaffolding safety, material flame retardancy standards, and causes of fire.
 - **`/support/` Support**: Information on volunteer services, donation of supplies, and community mutual aid.
 - **`/photos/` Photos**: On-site photos and related visual records.
 - **`/residents/` Residents**: Collection of residents' discussions, mutual aid messages, and voices from various platforms.
@@ -255,10 +255,10 @@ All main content is located in the `content/` directory:
 This repository curates documentation and analyses on the following topics:
 
 - Physical and safety comparisons between bamboo scaffolding and metal scaffolding
-- Legal flame-retardant requirements and standards for safety netting in Hong Kong
-- Responsibilities and management systems for contractors during maintenance works
-- Possible mechanisms leading to the rapid vertical fire spread
-- Material ignition points, chimney effects, engineering workflow, and inspection procedures
+- Legal requirements and standards in Hong Kong on flame retardancy for scaffolding meshes
+- Responsibilities and management systems of contractors during maintenance works
+- Possible mechanisms causing rapid vertical fire spread
+- Material ignition points, chimney effect, engineering workflow, and inspection procedures
 - Public statements from engineering, material science, and firefighting experts
 
 ## 5. Public Contribution
@@ -267,7 +267,7 @@ Contributions are welcome from residents, researchers, and professionals:
 
 - Adding new information or sources
 - Correcting or updating existing content
-- Providing technical or policy analysis
+- Providing technical or policy analyses
 - Consolidating volunteer or community support information
 - Submitting Pull Requests or Issues to improve the repository
   - If you are unfamiliar with how GitHub works, we recommend you use Issues to suggest changes
@@ -284,7 +284,7 @@ To ensure documents can serve as valid evidence, please include the following in
 **2. Collection Time**
 
 - Record when you obtained the document
-- Format example: `2025-11-27 14:30` (assume HKT if timezone is not provided)
+- Format example: `2025-11-27 14:30` (assuming HKT timezone if left unspecified)
 - If not provided, assumed to be the time when the file was first committed to the repository (original commit time)
 
 **3. File Hash (SHA-256) [Recommended for Evidence]**
@@ -298,15 +298,15 @@ To ensure documents can serve as valid evidence, please include the following in
 
 - Please choose one of the following:
 
-  - 網上下載 (Web download): Download or automated scraping from website
+  - 網上下載 (Web download): Downloaded or automatically scraped from websites
   - 網際網路檔案館 (Wayback Machine): Retrieved from Internet Archive/Wayback Machine
-  - 政府/法定機構公佈 (Official/Public Record): Downloaded from government gazette, department website, or statutory body
+  - 政府/法定機構公佈 (Official/Public Records): Downloaded from government gazette, or websites of departments and statutory bodies
   - 電郵附件 (Email attachment): Received as email attachment
-  - 通訊平台 (Messaging platform): Retrieved from messaging platform (Telegram, WhatsApp, etc.)
+  - 通訊平台 (Messaging platform): Retrieved from messaging platforms (Telegram, WhatsApp, etc.)
   - 實體掃描 (Scan of Original/CTC): Scanned from original document or Certified True Copy
   - 螢幕截圖 (Screen Capture): Screenshot of webpage/screen (use only if original file is unavailable)
   - 第三方檔案庫 (Third-party archive): Retrieved from third-party archive service
-  - 其他 (Other): Other method (please specify in notes)
+  - 其他 (Other): Other methods (please specify in notes)
 
 **5. Collector** (Optional)
 
@@ -388,10 +388,10 @@ Issues are suitable for:
 
 Pull Requests are suitable for:
 
-- Adding folders or files (e.g., news, documents, analysis)
+- Adding folders or files (e.g., news, documents, analyses)
 - Improving Markdown structures or formatting
 - Adding verified data
-- Updating timelines, summaries, and technical analysis
+- Updating timelines, summaries, and technical analyses
 
 ---
 
