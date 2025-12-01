@@ -1,21 +1,11 @@
 /* 
-   Wait for the DOM to be fully loaded.
-   We also use a slight delay or check mechanism because MkDocs Material sometimes 
-   manipulates the DOM or loads things via instant loading (if enabled), 
-   which might wipe out our changes or mean the header isn't ready immediately.
+   Visitor Counter for MkDocs Material
+   Integrates with the repository facts section (Stars/Forks) if possible.
 */
 
 document.addEventListener("DOMContentLoaded", function() {
     initVisitorCounter();
 });
-
-/* 
-   MkDocs Material uses 'instant loading' (PJAX-like) if enabled.
-   We need to re-initialize the counter on navigation.
-*/
-// Listen for location changes if they happen (e.g. instant loading)
-// Not strictly standard but often used in single page app contexts or with Material's instant loading
-// We can also use a MutationObserver to be safe.
 
 function initVisitorCounter() {
     // 1. Inject Busuanzi Script if not already present
@@ -29,23 +19,53 @@ function initVisitorCounter() {
 
     // 2. Function to insert the counter
     function insertCounter() {
+        // Check if we already have the counter
+        if (document.getElementById("busuanzi_container_site_pv_custom")) {
+            return;
+        }
+
+        // Strategy: Try to inject into .md-source__facts (where stars are)
+        // If that fails (no repo configured or facts hidden), fallback to header
+        
+        var sourceRepository = document.querySelector(".md-source__repository");
         var headerInner = document.querySelector(".md-header__inner");
-        // Check if we already inserted it to avoid duplicates
-        if (headerInner && !document.getElementById("busuanzi_container_site_pv_custom")) {
+        
+        if (sourceRepository) {
+            // We have a repository block. Let's try to find or create the facts list.
+            var facts = sourceRepository.querySelector(".md-source__facts");
+            
+            if (!facts) {
+                // Facts list doesn't exist (yet? or no stars?). Create it.
+                // Note: Material CSS might hide .md-source__facts on small screens.
+                facts = document.createElement("ul");
+                facts.className = "md-source__facts";
+                sourceRepository.appendChild(facts);
+            }
+
+            // Create our fact item
+            var li = document.createElement("li");
+            li.className = "md-source__fact";
+            li.id = "busuanzi_container_site_pv_custom"; // Wrapper ID
+            
+            // Busuanzi content
+            li.innerHTML = `
+                <span id="busuanzi_container_site_pv" style="display:none">
+                    Visitors: <span id="busuanzi_value_site_pv">--</span>
+                </span>
+            `;
+            
+            facts.appendChild(li);
+
+        } else if (headerInner) {
+            // Fallback: No repository block found. Insert in header as before.
             var counter = document.createElement("div");
-            counter.id = "busuanzi_container_site_pv_custom"; // Custom ID wrapper
+            counter.id = "busuanzi_container_site_pv_custom";
             counter.className = "md-header__option";
             counter.style.marginLeft = "10px";
             counter.style.marginRight = "10px";
             counter.style.fontSize = "0.7rem";
             counter.style.color = "inherit";
-            counter.style.whiteSpace = "nowrap";
-            counter.style.display = "flex"; 
-            counter.style.alignItems = "center";
             
-            // Busuanzi looks for specific IDs. 
-            // We use style="display:none" initially, Busuanzi will change it to inline.
-            // We wrap it in our own container to ensure flex alignment works.
             counter.innerHTML = `
                 <span id="busuanzi_container_site_pv" style="display:none">
                     Visitors: <span id="busuanzi_value_site_pv">--</span>
@@ -55,7 +75,6 @@ function initVisitorCounter() {
             var search = document.querySelector(".md-search");
             var source = document.querySelector(".md-header__source");
             
-            // Insert before source (repo link) or search
             if (source) {
                  headerInner.insertBefore(counter, source);
             } else if (search) {
@@ -69,8 +88,12 @@ function initVisitorCounter() {
     // Run insertion immediately
     insertCounter();
 
-    // 3. Observe header for changes (re-renders)
+    // 3. Observe header for changes
+    // This is crucial because Material loads repo stats asynchronously.
+    // When stats load, .md-source__facts might be replaced or updated.
     var observer = new MutationObserver(function(mutations) {
+        // We just check if our element is still there. If not, re-insert.
+        // Note: If Material wipes innerHTML of facts, our element dies.
         insertCounter();
     });
     
