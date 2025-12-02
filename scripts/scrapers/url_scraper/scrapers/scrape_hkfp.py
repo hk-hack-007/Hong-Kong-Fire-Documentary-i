@@ -40,4 +40,4 @@ def scrape():
 
         results.append((date_str, title, link))
 
-    return ('hkfp', results)
+    return ('Hong Kong Free Press', results)
