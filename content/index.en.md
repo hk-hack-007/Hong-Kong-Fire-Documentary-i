@@ -1,3 +1,7 @@
+## ⚠️ **Latest Repository Address**  
+ If you previously forked the old repository, please re‑fork from this updated address:  
+ [https://github.com/adminlby/Hong-Kong-Fire-Documentary](https://github.com/adminlby/Hong-Kong-Fire-Documentary)
+
 # 11.26 Tai Po Wang Fuk Court Fire Documentary
 
 This repository aims to collect, organize, and preserve publicly available information related to the Wang Fuk Court fire in Tai Po on 26 November 2025. Materials include news reports, video footage, technical analyses, contractor information, volunteer and community support resources, official statements, and follow-up developments. The objective is to build a public, centralized, and verifiable archive for researchers, media, engineers, and concerned members of the public.
