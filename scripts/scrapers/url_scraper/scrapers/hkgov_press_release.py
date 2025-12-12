@@ -13,7 +13,7 @@ OUTPUT_DIR = "Tai_Po_Fire_Press_Releases_Bilingual"
 # Search Configuration
 SEARCH_CONFIG = [{"lang": "ENG", "url_template": "https://www.info.gov.hk/gia/general/202512/{day}.htm", "keywords": ["tai po", "fire"]}, {"lang": "CHI", "url_template": "https://www.info.gov.hk/gia/general/202512/{day}c.htm", "keywords": ["大埔", "火"]}]
 
-DATES_TO_CHECK = ["08", "09", "10", "11"]
+DATES_TO_CHECK = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
 
 
 def setup_dir():

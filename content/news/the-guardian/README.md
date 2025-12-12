@@ -1,4 +1,4 @@
-# The Guardian
+# Guardian
 
 ## 2025-11-26
 

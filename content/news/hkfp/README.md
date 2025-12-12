@@ -92,3 +92,12 @@
 
 ### 2025-12-11
 - [Hong Kong Judiciary, Legal Aid Dep’t to prioritise cases linked to Tai Po fire victims](https://hongkongfp.com/?p=546471)
+
+
+### 2025-12-11
+- [Hong Kong lawmaker slams ‘rotten’ construction sector after alleged fake certificates in hospital expansion project](https://hongkongfp.com/?p=546548)
+- [Tai Po fire: Scaffolding nets must pass laboratory tests before use, Hong Kong gov’t says](https://hongkongfp.com/?p=546594)
+- [Wang Fuk Court flat owners to convene for first committee meeting since blaze, will seek to oust renovation firm](https://hongkongfp.com/?p=546544)
+
+### 2025-12-12
+- [Domestic worker injured in Tai Po fire returns to Philippines after hospital discharge](https://hongkongfp.com/?p=546799)

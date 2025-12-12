@@ -703,3 +703,30 @@
 - [宏福苑五級火｜推為期一年計劃　免費為喪親者提供哀傷善別輔導](https://news.rthk.hk/rthk/ch/component/k2/1835618-20251211.htm?archive_date=2025-12-11)
 - [宏福苑五級火｜龔如心慈善管理有限公司將提供首批1億元捐款](https://news.rthk.hk/rthk/ch/component/k2/1835603-20251211.htm?archive_date=2025-12-11)
 - [宏福苑五級火｜卓永興稱自住業主前後收兩筆各10萬元補助](https://news.rthk.hk/rthk/ch/component/k2/1835590-20251211.htm?archive_date=2025-12-11)
+
+
+### 2025-12-11
+- [宏福苑五級火｜援助基金達35億　已處理1784宗生活津貼發放](https://news.rthk.hk/rthk/ch/component/k2/1835710-20251211.htm?archive_date=2025-12-11)
+- [宏福苑五級火｜男子涉冒認災民騙援助金　案件明日上午提堂](https://news.rthk.hk/rthk/ch/component/k2/1835707-20251211.htm?archive_date=2025-12-11)
+- [宏福苑五級火｜政府稱逾2千過渡性房屋等單位供居民較長期使用](https://news.rthk.hk/rthk/ch/component/k2/1835700-20251211.htm?archive_date=2025-12-11)
+
+### 2025-12-12
+- [Judge David Lok to lead committee on Tai Po blaze](https://news.rthk.hk/rthk/en/component/k2/1835828-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜陳國基稱協調所有政策局和部門配合獨立委員會工作](https://news.rthk.hk/rthk/ch/component/k2/1835893-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜獨立委員會本月下旬正式投入運作](https://news.rthk.hk/rthk/ch/component/k2/1835882-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜湯文龍稱本港司法體系獨立　不存在自己人查自己人](https://news.rthk.hk/rthk/ch/component/k2/1835871-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜精神健康諮詢委員會支援　已接觸130死者的家屬](https://news.rthk.hk/rthk/ch/component/k2/1835870-20251212.htm?archive_date=2025-12-12)
+- [首用「非法操練」拘9人　國安處稱部分人穿黑暴服裝出現火災現場](https://news.rthk.hk/rthk/ch/component/k2/1835865-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜建造業議會：承建商須按ISO標準為棚網採樣](https://news.rthk.hk/rthk/ch/component/k2/1835838-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜獨立委員會由陸啟康擔任主席　九個月內交報告](https://news.rthk.hk/rthk/ch/component/k2/1835853-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜湯家驊指獨立委員會審視方式新穎　可查得快及徹底](https://news.rthk.hk/rthk/ch/component/k2/1835856-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜陸啟康稱如有需要會考慮辭任選管會主席](https://news.rthk.hk/rthk/ch/component/k2/1835854-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜陸啟康：竭盡所能履行職責　籲相關持份者積極配合](https://news.rthk.hk/rthk/ch/component/k2/1835852-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜李家超稱問責到底　不存在任何人可逃避責任](https://news.rthk.hk/rthk/ch/component/k2/1835843-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜特首已指示小組就長遠住宿全面收集受災人士意見](https://news.rthk.hk/rthk/ch/component/k2/1835824-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜李家超稱習近平高度重視大火　述職時匯報最新情況](https://news.rthk.hk/rthk/ch/component/k2/1835820-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜獨立委員會就特定議題可獲賦權成為法定調查委員會](https://news.rthk.hk/rthk/ch/component/k2/1835816-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜李家超宣布委任法官陸啟康為獨立委員會主席](https://news.rthk.hk/rthk/ch/component/k2/1835813-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜行政長官李家超下午就宏福苑火災有關事宜會見傳媒](https://news.rthk.hk/rthk/ch/component/k2/1835801-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜建造商會冀大規模檢測棚網令成本下調](https://news.rthk.hk/rthk/ch/component/k2/1835775-20251212.htm?archive_date=2025-12-12)
+- [宏福苑五級火｜建造業議會稱棚網抽樣數目及位置按ISO規定](https://news.rthk.hk/rthk/ch/component/k2/1835766-20251212.htm?archive_date=2025-12-12)
